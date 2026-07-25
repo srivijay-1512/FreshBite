@@ -1,2 +1,39 @@
 # FreshBite
-Fresh bite is restuarant
+Fresh bite is restuarantA complete, self-contained food ordering web app built to satisfy the task brief: restaurant listings, menu management, cart functionality, order tracking, and payment integration — all working end-to-end in the browser with no backend required.
+
+Features
+
+1. Restaurant Listings
+
+6 restaurants across 5 cuisines (Italian, Indian, Chinese, Burgers, Healthy)
+Cuisine filter chips + live search (by restaurant, cuisine, or dish name)
+Cards show rating, delivery time, price range, and badges (Popular / Trending / Fast delivery)
+
+2. Menu Management
+
+Each restaurant has its own categorized menu (Mains, Starters, Breads, Drinks, etc.)
+Category tabs to jump between sections
+Per-item add/quantity controls with live stepper (+ / −)
+
+3. Cart Functionality
+
+Slide-out cart drawer with running item list
+Quantity edits sync live between menu view and cart
+Auto-calculated subtotal, delivery fee, taxes, and total
+
+4. Checkout & Payment Integration
+
+Delivery details form (name, address, phone, pincode)
+Payment method selector: UPI / Card / Cash on Delivery
+Card flow reveals number/expiry/CVV fields with basic validation
+Form validation before order placement
+
+5. Order Tracking
+
+Post-checkout tracking modal with unique order ID
+Animated 4-stage progress: Confirmed → Preparing → Out for delivery → Delivered
+Auto-advances stages over time to simulate live tracking
+Design
+Custom visual identity: charcoal + cream palette with orange/basil accents, Fraunces (display) + Manrope (body) + JetBrains Mono (data/labels)
+"Order ticket" motif in the hero, receipt-style dashed lines, tactile chip/pill UI
+Fully responsive down to mobile
